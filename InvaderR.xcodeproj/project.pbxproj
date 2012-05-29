@@ -1,0 +1,793 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* ___PROJECTNAMEASIDENTIFIER___AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* ___PROJECTNAMEASIDENTIFIER___AppDelegate.mm */; };
+		1D60589B0D05DD56006BFB54 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.mm */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		1F92F5EC0FDFF83200548BE8 /* GLViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1F92F5EA0FDFF83200548BE8 /* GLViewController.mm */; };
+		1FF404F30FF2AC4B00D17C20 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FF404F20FF2AC4B00D17C20 /* CoreGraphics.framework */; };
+		1FFE82450FF2AB450003974F /* OpenGLTexture3D.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1FFE82430FF2AB450003974F /* OpenGLTexture3D.mm */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28FD14FE0DC6FC130079059D /* GLView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 28FD14FD0DC6FC130079059D /* GLView.mm */; };
+		28FD15000DC6FC520079059D /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FD14FF0DC6FC520079059D /* OpenGLES.framework */; };
+		28FD15080DC6FC5B0079059D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FD15070DC6FC5B0079059D /* QuartzCore.framework */; };
+		B90BE040148B5FC100750A1C /* invaderR-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B90BE03F148B5FC100750A1C /* invaderR-Info.plist */; };
+		B90BE042148B64AE00750A1C /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B90BE041148B64AE00750A1C /* Icon@2x.png */; };
+		B91F0793128658B4003DDBE1 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B91F0792128658B4003DDBE1 /* Settings.bundle */; };
+		B91F08AA12866F04003DDBE1 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B91F08A912866F04003DDBE1 /* GameKit.framework */; };
+		B91F08C612867044003DDBE1 /* TitleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B91F08C412867044003DDBE1 /* TitleViewController.m */; };
+		B91F08C712867044003DDBE1 /* TitleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B91F08C512867044003DDBE1 /* TitleViewController.xib */; };
+		B91F6FDA111124B800EA8DF4 /* Sprite.mm in Sources */ = {isa = PBXBuildFile; fileRef = B91F6FD9111124B800EA8DF4 /* Sprite.mm */; };
+		B9226E46112E4BCC002A15D6 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B9226E45112E4BCC002A15D6 /* libxml2.dylib */; };
+		B9226FAA112F80BC002A15D6 /* SpriteCharacterObject.mm in Sources */ = {isa = PBXBuildFile; fileRef = B9226FA9112F80BC002A15D6 /* SpriteCharacterObject.mm */; };
+		B922721E113152F3002A15D6 /* ExplodeParticleSystem.mm in Sources */ = {isa = PBXBuildFile; fileRef = B922721D113152F3002A15D6 /* ExplodeParticleSystem.mm */; };
+		B93E43F910E07B5700662522 /* Base.mm in Sources */ = {isa = PBXBuildFile; fileRef = B93E43E510E07B5700662522 /* Base.mm */; };
+		B93E43FA10E07B5700662522 /* BaseSet.mm in Sources */ = {isa = PBXBuildFile; fileRef = B93E43E710E07B5700662522 /* BaseSet.mm */; };
+		B93E43FB10E07B5700662522 /* Bomber.mm in Sources */ = {isa = PBXBuildFile; fileRef = B93E43E910E07B5700662522 /* Bomber.mm */; };
+		B93E43FC10E07B5700662522 /* Invader.mm in Sources */ = {isa = PBXBuildFile; fileRef = B93E43EC10E07B5700662522 /* Invader.mm */; };
+		B93E43FD10E07B5700662522 /* InvaderSet.mm in Sources */ = {isa = PBXBuildFile; fileRef = B93E43EE10E07B5700662522 /* InvaderSet.mm */; };
+		B93E440010E07B5700662522 /* Player.mm in Sources */ = {isa = PBXBuildFile; fileRef = B93E43F210E07B5700662522 /* Player.mm */; };
+		B93E440110E07B5700662522 /* Shooter.mm in Sources */ = {isa = PBXBuildFile; fileRef = B93E43F410E07B5700662522 /* Shooter.mm */; };
+		B93E440210E07B5700662522 /* Text.mm in Sources */ = {isa = PBXBuildFile; fileRef = B93E43F610E07B5700662522 /* Text.mm */; };
+		B95E466311170DBD00ABE8B7 /* test.mm in Sources */ = {isa = PBXBuildFile; fileRef = B95E466211170DBD00ABE8B7 /* test.mm */; };
+		B977CF66132634A8008FAFA9 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B977CF64132634A8008FAFA9 /* Localizable.strings */; };
+		B977D0541326FADC008FAFA9 /* osFont.png in Resources */ = {isa = PBXBuildFile; fileRef = B977D0531326FADC008FAFA9 /* osFont.png */; };
+		B979CC41110ABD0B003742EC /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = B979CC40110ABD0B003742EC /* iTunesArtwork */; };
+		B979CC45110ABDFC003742EC /* dist.plist in Resources */ = {isa = PBXBuildFile; fileRef = B979CC44110ABDFC003742EC /* dist.plist */; };
+		B985C8F710E5BCBC00E5E09C /* AccelerometerSimulation.m in Sources */ = {isa = PBXBuildFile; fileRef = B985C8F610E5BCBC00E5E09C /* AccelerometerSimulation.m */; };
+		B985C91B10E5C33600E5E09C /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B985C91A10E5C33600E5E09C /* Icon.png */; };
+		B985CBB010E64C2300E5E09C /* Game.mm in Sources */ = {isa = PBXBuildFile; fileRef = B985CBAB10E64C2300E5E09C /* Game.mm */; };
+		B985CBB110E64C2300E5E09C /* GameCharacterObject.mm in Sources */ = {isa = PBXBuildFile; fileRef = B985CBAD10E64C2300E5E09C /* GameCharacterObject.mm */; };
+		B985CBB210E64C2300E5E09C /* GameObject.mm in Sources */ = {isa = PBXBuildFile; fileRef = B985CBAF10E64C2300E5E09C /* GameObject.mm */; };
+		B985CCAF10E6F58100E5E09C /* StateGame.mm in Sources */ = {isa = PBXBuildFile; fileRef = B985CCAE10E6F58100E5E09C /* StateGame.mm */; };
+		B985CCC610E6F94200E5E09C /* StateTitle.mm in Sources */ = {isa = PBXBuildFile; fileRef = B985CCC510E6F94200E5E09C /* StateTitle.mm */; };
+		B9951A8610EB0DC200AE944E /* Score.mm in Sources */ = {isa = PBXBuildFile; fileRef = B9951A8510EB0DC200AE944E /* Score.mm */; };
+		B9951AE810EC372C00AE944E /* StateLose.mm in Sources */ = {isa = PBXBuildFile; fileRef = B9951AE710EC372C00AE944E /* StateLose.mm */; };
+		B9AF4994112BC27100CB3751 /* Sounds.mm in Sources */ = {isa = PBXBuildFile; fileRef = B9AF4993112BC27100CB3751 /* Sounds.mm */; };
+		B9AF49BA112BC49F00CB3751 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9AF49B9112BC49F00CB3751 /* AudioToolbox.framework */; };
+		B9AF4B16112BEA1F00CB3751 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9AF4B15112BEA1F00CB3751 /* AVFoundation.framework */; };
+		B9AF4BE0112BEA7B00CB3751 /* Music.mm in Sources */ = {isa = PBXBuildFile; fileRef = B9AF4BDF112BEA7B00CB3751 /* Music.mm */; };
+		B9AF5361112E3C2600CB3751 /* hitPlayer.wav in Resources */ = {isa = PBXBuildFile; fileRef = B9AF535C112E3C2600CB3751 /* hitPlayer.wav */; };
+		B9AF5362112E3C2600CB3751 /* shootPlayer.wav in Resources */ = {isa = PBXBuildFile; fileRef = B9AF535D112E3C2600CB3751 /* shootPlayer.wav */; };
+		B9AF5363112E3C2600CB3751 /* hitInvader.wav in Resources */ = {isa = PBXBuildFile; fileRef = B9AF535E112E3C2600CB3751 /* hitInvader.wav */; };
+		B9AF5364112E3C2600CB3751 /* shootInvader.wav in Resources */ = {isa = PBXBuildFile; fileRef = B9AF535F112E3C2600CB3751 /* shootInvader.wav */; };
+		B9AF5365112E3C2600CB3751 /* hitBase.wav in Resources */ = {isa = PBXBuildFile; fileRef = B9AF5360112E3C2600CB3751 /* hitBase.wav */; };
+		B9B1AFE4130AA38F00208366 /* GameProjectileObjectBomb.mm in Sources */ = {isa = PBXBuildFile; fileRef = B9B1AFE3130AA38F00208366 /* GameProjectileObjectBomb.mm */; };
+		B9B1B12B130AAFD500208366 /* GameProjectileObjectShot.mm in Sources */ = {isa = PBXBuildFile; fileRef = B9B1B12A130AAFD500208366 /* GameProjectileObjectShot.mm */; };
+		B9BC2CB2111A6ED900D63436 /* GameProjectileObject.mm in Sources */ = {isa = PBXBuildFile; fileRef = B9BC2CB1111A6ED900D63436 /* GameProjectileObject.mm */; };
+		B9BC2E03111AB71400D63436 /* ProjectileEmitter.mm in Sources */ = {isa = PBXBuildFile; fileRef = B9BC2E02111AB71400D63436 /* ProjectileEmitter.mm */; };
+		B9BC2E07111AB92900D63436 /* GameMoveableObject.mm in Sources */ = {isa = PBXBuildFile; fileRef = B9BC2E06111AB92900D63436 /* GameMoveableObject.mm */; };
+		B9DF38D412C1C84300E70FE2 /* md5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9DF38D312C1C84300E70FE2 /* md5.cpp */; };
+		B9E0883F1300B6DF0008E4A9 /* GameStats.mm in Sources */ = {isa = PBXBuildFile; fileRef = B9E0883E1300B6DF0008E4A9 /* GameStats.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* ___PROJECTNAMEASIDENTIFIER___AppDelegate.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = "___PROJECTNAMEASIDENTIFIER___AppDelegate.h"; path = "Classes/___PROJECTNAMEASIDENTIFIER___AppDelegate.h"; sourceTree = SOURCE_ROOT; };
+		1D3623250D0F684500981E51 /* ___PROJECTNAMEASIDENTIFIER___AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "___PROJECTNAMEASIDENTIFIER___AppDelegate.mm"; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* InvaderR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InvaderR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1F92F5E80FDFF83200548BE8 /* ConstantsAndMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConstantsAndMacros.h; path = Classes/ConstantsAndMacros.h; sourceTree = SOURCE_ROOT; };
+		1F92F5E90FDFF83200548BE8 /* GLViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GLViewController.h; path = Classes/GLViewController.h; sourceTree = SOURCE_ROOT; };
+		1F92F5EA0FDFF83200548BE8 /* GLViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GLViewController.mm; sourceTree = "<group>"; };
+		1F92F5EB0FDFF83200548BE8 /* OpenGLCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OpenGLCommon.h; path = Classes/OpenGLCommon.h; sourceTree = SOURCE_ROOT; };
+		1FF404F20FF2AC4B00D17C20 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1FFE82430FF2AB450003974F /* OpenGLTexture3D.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = OpenGLTexture3D.mm; sourceTree = "<group>"; };
+		1FFE82440FF2AB450003974F /* OpenGLTexture3D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OpenGLTexture3D.h; path = Classes/OpenGLTexture3D.h; sourceTree = SOURCE_ROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28FD14FC0DC6FC130079059D /* GLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GLView.h; path = Classes/GLView.h; sourceTree = SOURCE_ROOT; };
+		28FD14FD0DC6FC130079059D /* GLView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GLView.mm; sourceTree = "<group>"; };
+		28FD14FF0DC6FC520079059D /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		28FD15070DC6FC5B0079059D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		29B97316FDCFA39411CA2CEA /* main.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* ___PROJECTNAMEASIDENTIFIER____Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "___PROJECTNAMEASIDENTIFIER____Prefix.pch"; sourceTree = "<group>"; };
+		B90BE03F148B5FC100750A1C /* invaderR-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "invaderR-Info.plist"; path = "invaderR/invaderR-Info.plist"; sourceTree = "<group>"; };
+		B90BE041148B64AE00750A1C /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		B91F0792128658B4003DDBE1 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		B91F08A912866F04003DDBE1 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		B91F08C312867044003DDBE1 /* TitleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleViewController.h; sourceTree = "<group>"; };
+		B91F08C412867044003DDBE1 /* TitleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleViewController.m; sourceTree = "<group>"; };
+		B91F08C512867044003DDBE1 /* TitleViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TitleViewController.xib; sourceTree = "<group>"; };
+		B91F6FD8111124B800EA8DF4 /* Sprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Sprite.h; path = Classes/Sprite.h; sourceTree = "<group>"; };
+		B91F6FD9111124B800EA8DF4 /* Sprite.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = Sprite.mm; path = Classes/Sprite.mm; sourceTree = "<group>"; };
+		B91F72B91114426B00EA8DF4 /* projectile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = projectile.h; path = Classes/projectile.h; sourceTree = "<group>"; };
+		B9226E45112E4BCC002A15D6 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		B9226FA8112F80BC002A15D6 /* SpriteCharacterObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SpriteCharacterObject.h; path = Classes/SpriteCharacterObject.h; sourceTree = "<group>"; };
+		B9226FA9112F80BC002A15D6 /* SpriteCharacterObject.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = SpriteCharacterObject.mm; path = Classes/SpriteCharacterObject.mm; sourceTree = "<group>"; };
+		B92271921131328E002A15D6 /* ParticleSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ParticleSystem.h; path = Classes/ParticleSystem.h; sourceTree = "<group>"; };
+		B92272081131524D002A15D6 /* ExplodeParticleSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExplodeParticleSystem.h; path = Classes/ExplodeParticleSystem.h; sourceTree = "<group>"; };
+		B922721D113152F3002A15D6 /* ExplodeParticleSystem.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ExplodeParticleSystem.mm; path = Classes/ExplodeParticleSystem.mm; sourceTree = "<group>"; };
+		B93E43E510E07B5700662522 /* Base.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = Base.mm; path = Classes/Base.mm; sourceTree = "<group>"; };
+		B93E43E610E07B5700662522 /* Base.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = Base.h; path = Classes/Base.h; sourceTree = "<group>"; };
+		B93E43E710E07B5700662522 /* BaseSet.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = BaseSet.mm; path = Classes/BaseSet.mm; sourceTree = "<group>"; };
+		B93E43E810E07B5700662522 /* BaseSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseSet.h; path = Classes/BaseSet.h; sourceTree = "<group>"; };
+		B93E43E910E07B5700662522 /* Bomber.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = Bomber.mm; path = Classes/Bomber.mm; sourceTree = "<group>"; };
+		B93E43EA10E07B5700662522 /* Bomber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Bomber.h; path = Classes/Bomber.h; sourceTree = "<group>"; };
+		B93E43EB10E07B5700662522 /* consts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = consts.h; path = Classes/consts.h; sourceTree = "<group>"; };
+		B93E43EC10E07B5700662522 /* Invader.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = Invader.mm; path = Classes/Invader.mm; sourceTree = "<group>"; };
+		B93E43ED10E07B5700662522 /* Invader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Invader.h; path = Classes/Invader.h; sourceTree = "<group>"; };
+		B93E43EE10E07B5700662522 /* InvaderSet.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = InvaderSet.mm; path = Classes/InvaderSet.mm; sourceTree = "<group>"; };
+		B93E43EF10E07B5700662522 /* InvaderSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InvaderSet.h; path = Classes/InvaderSet.h; sourceTree = "<group>"; };
+		B93E43F210E07B5700662522 /* Player.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = Player.mm; path = Classes/Player.mm; sourceTree = "<group>"; };
+		B93E43F310E07B5700662522 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Player.h; path = Classes/Player.h; sourceTree = "<group>"; };
+		B93E43F410E07B5700662522 /* Shooter.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = Shooter.mm; path = Classes/Shooter.mm; sourceTree = "<group>"; };
+		B93E43F510E07B5700662522 /* Shooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Shooter.h; path = Classes/Shooter.h; sourceTree = "<group>"; };
+		B93E43F610E07B5700662522 /* Text.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = Text.mm; path = Classes/Text.mm; sourceTree = "<group>"; };
+		B93E43F710E07B5700662522 /* Text.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Text.h; path = Classes/Text.h; sourceTree = "<group>"; };
+		B95E466111170DBD00ABE8B7 /* test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = test.h; path = Classes/test.h; sourceTree = "<group>"; };
+		B95E466211170DBD00ABE8B7 /* test.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = test.mm; path = Classes/test.mm; sourceTree = "<group>"; };
+		B977CF67132634BB008FAFA9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B977CF82132636E2008FAFA9 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B977D0531326FADC008FAFA9 /* osFont.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = osFont.png; sourceTree = "<group>"; };
+		B979CC40110ABD0B003742EC /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
+		B979CC44110ABDFC003742EC /* dist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = dist.plist; sourceTree = "<group>"; };
+		B985C8F510E5BCBC00E5E09C /* AccelerometerSimulation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccelerometerSimulation.h; sourceTree = "<group>"; };
+		B985C8F610E5BCBC00E5E09C /* AccelerometerSimulation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccelerometerSimulation.m; sourceTree = "<group>"; };
+		B985C91A10E5C33600E5E09C /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		B985CBAA10E64C2300E5E09C /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Game.h; path = Classes/Game.h; sourceTree = "<group>"; };
+		B985CBAB10E64C2300E5E09C /* Game.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = Game.mm; path = Classes/Game.mm; sourceTree = "<group>"; };
+		B985CBAC10E64C2300E5E09C /* GameCharacterObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameCharacterObject.h; path = Classes/GameCharacterObject.h; sourceTree = "<group>"; };
+		B985CBAD10E64C2300E5E09C /* GameCharacterObject.mm */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; name = GameCharacterObject.mm; path = Classes/GameCharacterObject.mm; sourceTree = "<group>"; };
+		B985CBAE10E64C2300E5E09C /* GameObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameObject.h; path = Classes/GameObject.h; sourceTree = "<group>"; };
+		B985CBAF10E64C2300E5E09C /* GameObject.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = GameObject.mm; path = Classes/GameObject.mm; sourceTree = "<group>"; };
+		B985CCAD10E6F58100E5E09C /* StateGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StateGame.h; path = Classes/StateGame.h; sourceTree = "<group>"; };
+		B985CCAE10E6F58100E5E09C /* StateGame.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = StateGame.mm; path = Classes/StateGame.mm; sourceTree = "<group>"; };
+		B985CCB010E6F5A500E5E09C /* State.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = State.h; path = Classes/State.h; sourceTree = "<group>"; };
+		B985CCC410E6F94200E5E09C /* StateTitle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StateTitle.h; path = Classes/StateTitle.h; sourceTree = "<group>"; };
+		B985CCC510E6F94200E5E09C /* StateTitle.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = StateTitle.mm; path = Classes/StateTitle.mm; sourceTree = "<group>"; };
+		B9951A8410EB0DC200AE944E /* Score.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Score.h; path = Classes/Score.h; sourceTree = "<group>"; };
+		B9951A8510EB0DC200AE944E /* Score.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = Score.mm; path = Classes/Score.mm; sourceTree = "<group>"; };
+		B9951AE610EC372C00AE944E /* StateLose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StateLose.h; path = Classes/StateLose.h; sourceTree = "<group>"; };
+		B9951AE710EC372C00AE944E /* StateLose.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = StateLose.mm; path = Classes/StateLose.mm; sourceTree = "<group>"; };
+		B9AF4992112BC27100CB3751 /* Sounds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Sounds.h; path = Classes/Sounds.h; sourceTree = "<group>"; };
+		B9AF4993112BC27100CB3751 /* Sounds.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = Sounds.mm; path = Classes/Sounds.mm; sourceTree = "<group>"; };
+		B9AF49B9112BC49F00CB3751 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		B9AF4B15112BEA1F00CB3751 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		B9AF4BDE112BEA7B00CB3751 /* Music.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Music.h; path = Classes/Music.h; sourceTree = "<group>"; };
+		B9AF4BDF112BEA7B00CB3751 /* Music.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = Music.mm; path = Classes/Music.mm; sourceTree = "<group>"; };
+		B9AF535C112E3C2600CB3751 /* hitPlayer.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hitPlayer.wav; sourceTree = "<group>"; };
+		B9AF535D112E3C2600CB3751 /* shootPlayer.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = shootPlayer.wav; sourceTree = "<group>"; };
+		B9AF535E112E3C2600CB3751 /* hitInvader.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hitInvader.wav; sourceTree = "<group>"; };
+		B9AF535F112E3C2600CB3751 /* shootInvader.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = shootInvader.wav; sourceTree = "<group>"; };
+		B9AF5360112E3C2600CB3751 /* hitBase.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hitBase.wav; sourceTree = "<group>"; };
+		B9B1AFE2130AA38F00208366 /* GameProjectileObjectBomb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameProjectileObjectBomb.h; path = Classes/GameProjectileObjectBomb.h; sourceTree = "<group>"; };
+		B9B1AFE3130AA38F00208366 /* GameProjectileObjectBomb.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = GameProjectileObjectBomb.mm; path = Classes/GameProjectileObjectBomb.mm; sourceTree = "<group>"; };
+		B9B1B129130AAFD500208366 /* GameProjectileObjectShot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameProjectileObjectShot.h; path = Classes/GameProjectileObjectShot.h; sourceTree = "<group>"; };
+		B9B1B12A130AAFD500208366 /* GameProjectileObjectShot.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = GameProjectileObjectShot.mm; path = Classes/GameProjectileObjectShot.mm; sourceTree = "<group>"; };
+		B9BC2CB0111A6ED900D63436 /* GameProjectileObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameProjectileObject.h; path = Classes/GameProjectileObject.h; sourceTree = "<group>"; };
+		B9BC2CB1111A6ED900D63436 /* GameProjectileObject.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = GameProjectileObject.mm; path = Classes/GameProjectileObject.mm; sourceTree = "<group>"; };
+		B9BC2E01111AB71400D63436 /* ProjectileEmitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProjectileEmitter.h; path = Classes/ProjectileEmitter.h; sourceTree = "<group>"; };
+		B9BC2E02111AB71400D63436 /* ProjectileEmitter.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ProjectileEmitter.mm; path = Classes/ProjectileEmitter.mm; sourceTree = "<group>"; };
+		B9BC2E05111AB92900D63436 /* GameMoveableObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameMoveableObject.h; path = Classes/GameMoveableObject.h; sourceTree = "<group>"; };
+		B9BC2E06111AB92900D63436 /* GameMoveableObject.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = GameMoveableObject.mm; path = Classes/GameMoveableObject.mm; sourceTree = "<group>"; };
+		B9DF38D212C1C84200E70FE2 /* md5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = md5.h; path = Classes/tools/md5.h; sourceTree = "<group>"; };
+		B9DF38D312C1C84300E70FE2 /* md5.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = md5.cpp; path = Classes/tools/md5.cpp; sourceTree = "<group>"; };
+		B9E0883D1300B6DF0008E4A9 /* GameStats.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameStats.h; path = Classes/GameStats.h; sourceTree = "<group>"; };
+		B9E0883E1300B6DF0008E4A9 /* GameStats.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = GameStats.mm; path = Classes/GameStats.mm; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				28FD15000DC6FC520079059D /* OpenGLES.framework in Frameworks */,
+				28FD15080DC6FC5B0079059D /* QuartzCore.framework in Frameworks */,
+				1FF404F30FF2AC4B00D17C20 /* CoreGraphics.framework in Frameworks */,
+				B9AF49BA112BC49F00CB3751 /* AudioToolbox.framework in Frameworks */,
+				B9AF4B16112BEA1F00CB3751 /* AVFoundation.framework in Frameworks */,
+				B9226E46112E4BCC002A15D6 /* libxml2.dylib in Frameworks */,
+				B91F08AA12866F04003DDBE1 /* GameKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* ___PROJECTNAMEASIDENTIFIER___AppDelegate.h */,
+				1D3623250D0F684500981E51 /* ___PROJECTNAMEASIDENTIFIER___AppDelegate.mm */,
+				1F92F5E80FDFF83200548BE8 /* ConstantsAndMacros.h */,
+				1F92F5EB0FDFF83200548BE8 /* OpenGLCommon.h */,
+				1FFE82430FF2AB450003974F /* OpenGLTexture3D.mm */,
+				1FFE82440FF2AB450003974F /* OpenGLTexture3D.h */,
+				28FD14FC0DC6FC130079059D /* GLView.h */,
+				28FD14FD0DC6FC130079059D /* GLView.mm */,
+				1F92F5E90FDFF83200548BE8 /* GLViewController.h */,
+				1F92F5EA0FDFF83200548BE8 /* GLViewController.mm */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* InvaderR.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				B9DF38CD12C1C80C00E70FE2 /* tools */,
+				B985C8F410E5BCBC00E5E09C /* Simulator classes */,
+				B93E440310E07B6900662522 /* Game */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				B91F08C012866FF2003DDBE1 /* Screens */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* ___PROJECTNAMEASIDENTIFIER____Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.mm */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B9AF535C112E3C2600CB3751 /* hitPlayer.wav */,
+				B9AF535D112E3C2600CB3751 /* shootPlayer.wav */,
+				B9AF535E112E3C2600CB3751 /* hitInvader.wav */,
+				B9AF535F112E3C2600CB3751 /* shootInvader.wav */,
+				B9AF5360112E3C2600CB3751 /* hitBase.wav */,
+				B979CC40110ABD0B003742EC /* iTunesArtwork */,
+				B977D0531326FADC008FAFA9 /* osFont.png */,
+				B985C91A10E5C33600E5E09C /* Icon.png */,
+				B90BE041148B64AE00750A1C /* Icon@2x.png */,
+				B90BE03F148B5FC100750A1C /* invaderR-Info.plist */,
+				B979CC44110ABDFC003742EC /* dist.plist */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				B977CF64132634A8008FAFA9 /* Localizable.strings */,
+				B91F0792128658B4003DDBE1 /* Settings.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B9AF49B9112BC49F00CB3751 /* AudioToolbox.framework */,
+				B9AF4B15112BEA1F00CB3751 /* AVFoundation.framework */,
+				28FD15070DC6FC5B0079059D /* QuartzCore.framework */,
+				28FD14FF0DC6FC520079059D /* OpenGLES.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				1FF404F20FF2AC4B00D17C20 /* CoreGraphics.framework */,
+				B9226E45112E4BCC002A15D6 /* libxml2.dylib */,
+				B91F08A912866F04003DDBE1 /* GameKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B91F08C012866FF2003DDBE1 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				B91F08C312867044003DDBE1 /* TitleViewController.h */,
+				B91F08C412867044003DDBE1 /* TitleViewController.m */,
+				B91F08C512867044003DDBE1 /* TitleViewController.xib */,
+			);
+			name = Screens;
+			sourceTree = "<group>";
+		};
+		B91F72B81114413600EA8DF4 /* States */ = {
+			isa = PBXGroup;
+			children = (
+				B985CCB010E6F5A500E5E09C /* State.h */,
+				B985CCAD10E6F58100E5E09C /* StateGame.h */,
+				B985CCAE10E6F58100E5E09C /* StateGame.mm */,
+				B985CCC410E6F94200E5E09C /* StateTitle.h */,
+				B985CCC510E6F94200E5E09C /* StateTitle.mm */,
+				B9951AE610EC372C00AE944E /* StateLose.h */,
+				B9951AE710EC372C00AE944E /* StateLose.mm */,
+			);
+			name = States;
+			sourceTree = "<group>";
+		};
+		B92271FE1131508E002A15D6 /* Particles */ = {
+			isa = PBXGroup;
+			children = (
+				B92271921131328E002A15D6 /* ParticleSystem.h */,
+				B92272081131524D002A15D6 /* ExplodeParticleSystem.h */,
+				B922721D113152F3002A15D6 /* ExplodeParticleSystem.mm */,
+			);
+			name = Particles;
+			sourceTree = "<group>";
+		};
+		B93E440310E07B6900662522 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				B9BC2E04111AB81500D63436 /* GameObjects */,
+				B91F72B81114413600EA8DF4 /* States */,
+				B92271FE1131508E002A15D6 /* Particles */,
+				B93E43E710E07B5700662522 /* BaseSet.mm */,
+				B93E43E810E07B5700662522 /* BaseSet.h */,
+				B91F72B91114426B00EA8DF4 /* projectile.h */,
+				B93E43EB10E07B5700662522 /* consts.h */,
+				B985CBAA10E64C2300E5E09C /* Game.h */,
+				B985CBAB10E64C2300E5E09C /* Game.mm */,
+				B9E0883D1300B6DF0008E4A9 /* GameStats.h */,
+				B9E0883E1300B6DF0008E4A9 /* GameStats.mm */,
+				B93E43EF10E07B5700662522 /* InvaderSet.h */,
+				B93E43EE10E07B5700662522 /* InvaderSet.mm */,
+				B9AF4BDE112BEA7B00CB3751 /* Music.h */,
+				B9AF4BDF112BEA7B00CB3751 /* Music.mm */,
+				B9951A8410EB0DC200AE944E /* Score.h */,
+				B9951A8510EB0DC200AE944E /* Score.mm */,
+				B9AF4992112BC27100CB3751 /* Sounds.h */,
+				B9AF4993112BC27100CB3751 /* Sounds.mm */,
+				B93E43F710E07B5700662522 /* Text.h */,
+				B93E43F610E07B5700662522 /* Text.mm */,
+				B95E466111170DBD00ABE8B7 /* test.h */,
+				B95E466211170DBD00ABE8B7 /* test.mm */,
+			);
+			name = Game;
+			sourceTree = "<group>";
+		};
+		B985C8F410E5BCBC00E5E09C /* Simulator classes */ = {
+			isa = PBXGroup;
+			children = (
+				B985C8F510E5BCBC00E5E09C /* AccelerometerSimulation.h */,
+				B985C8F610E5BCBC00E5E09C /* AccelerometerSimulation.m */,
+			);
+			name = "Simulator classes";
+			path = "Classes/Simulator classes";
+			sourceTree = "<group>";
+		};
+		B9BC2E04111AB81500D63436 /* GameObjects */ = {
+			isa = PBXGroup;
+			children = (
+				B9BC2E22111ABE6400D63436 /* Projectiles */,
+				B93E43E510E07B5700662522 /* Base.mm */,
+				B93E43E610E07B5700662522 /* Base.h */,
+				B985CBAC10E64C2300E5E09C /* GameCharacterObject.h */,
+				B985CBAD10E64C2300E5E09C /* GameCharacterObject.mm */,
+				B9BC2E05111AB92900D63436 /* GameMoveableObject.h */,
+				B9BC2E06111AB92900D63436 /* GameMoveableObject.mm */,
+				B9BC2CB0111A6ED900D63436 /* GameProjectileObject.h */,
+				B9BC2CB1111A6ED900D63436 /* GameProjectileObject.mm */,
+				B9B1AFE2130AA38F00208366 /* GameProjectileObjectBomb.h */,
+				B9B1AFE3130AA38F00208366 /* GameProjectileObjectBomb.mm */,
+				B9B1B129130AAFD500208366 /* GameProjectileObjectShot.h */,
+				B9B1B12A130AAFD500208366 /* GameProjectileObjectShot.mm */,
+				B985CBAE10E64C2300E5E09C /* GameObject.h */,
+				B985CBAF10E64C2300E5E09C /* GameObject.mm */,
+				B93E43EC10E07B5700662522 /* Invader.mm */,
+				B93E43ED10E07B5700662522 /* Invader.h */,
+				B93E43F210E07B5700662522 /* Player.mm */,
+				B93E43F310E07B5700662522 /* Player.h */,
+				B91F6FD8111124B800EA8DF4 /* Sprite.h */,
+				B91F6FD9111124B800EA8DF4 /* Sprite.mm */,
+				B9226FA8112F80BC002A15D6 /* SpriteCharacterObject.h */,
+				B9226FA9112F80BC002A15D6 /* SpriteCharacterObject.mm */,
+			);
+			name = GameObjects;
+			sourceTree = "<group>";
+		};
+		B9BC2E22111ABE6400D63436 /* Projectiles */ = {
+			isa = PBXGroup;
+			children = (
+				B93E43EA10E07B5700662522 /* Bomber.h */,
+				B93E43E910E07B5700662522 /* Bomber.mm */,
+				B9BC2E01111AB71400D63436 /* ProjectileEmitter.h */,
+				B9BC2E02111AB71400D63436 /* ProjectileEmitter.mm */,
+				B93E43F510E07B5700662522 /* Shooter.h */,
+				B93E43F410E07B5700662522 /* Shooter.mm */,
+			);
+			name = Projectiles;
+			sourceTree = "<group>";
+		};
+		B9DF38CD12C1C80C00E70FE2 /* tools */ = {
+			isa = PBXGroup;
+			children = (
+				B9DF38D212C1C84200E70FE2 /* md5.h */,
+				B9DF38D312C1C84300E70FE2 /* md5.cpp */,
+			);
+			name = tools;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* InvaderR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "InvaderR" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InvaderR;
+			productName = "___PROJECTNAME___";
+			productReference = 1D6058910D05DD3D006BFB54 /* InvaderR.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = vorticity;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "InvaderR" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+				jp,
+				ja,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* InvaderR */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				B985C91B10E5C33600E5E09C /* Icon.png in Resources */,
+				B979CC41110ABD0B003742EC /* iTunesArtwork in Resources */,
+				B979CC45110ABDFC003742EC /* dist.plist in Resources */,
+				B9AF5361112E3C2600CB3751 /* hitPlayer.wav in Resources */,
+				B9AF5362112E3C2600CB3751 /* shootPlayer.wav in Resources */,
+				B9AF5363112E3C2600CB3751 /* hitInvader.wav in Resources */,
+				B9AF5364112E3C2600CB3751 /* shootInvader.wav in Resources */,
+				B9AF5365112E3C2600CB3751 /* hitBase.wav in Resources */,
+				B91F0793128658B4003DDBE1 /* Settings.bundle in Resources */,
+				B91F08C712867044003DDBE1 /* TitleViewController.xib in Resources */,
+				B977CF66132634A8008FAFA9 /* Localizable.strings in Resources */,
+				B977D0541326FADC008FAFA9 /* osFont.png in Resources */,
+				B90BE040148B5FC100750A1C /* invaderR-Info.plist in Resources */,
+				B90BE042148B64AE00750A1C /* Icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.mm in Sources */,
+				1D3623260D0F684500981E51 /* ___PROJECTNAMEASIDENTIFIER___AppDelegate.mm in Sources */,
+				28FD14FE0DC6FC130079059D /* GLView.mm in Sources */,
+				1F92F5EC0FDFF83200548BE8 /* GLViewController.mm in Sources */,
+				1FFE82450FF2AB450003974F /* OpenGLTexture3D.mm in Sources */,
+				B93E43F910E07B5700662522 /* Base.mm in Sources */,
+				B93E43FA10E07B5700662522 /* BaseSet.mm in Sources */,
+				B93E43FB10E07B5700662522 /* Bomber.mm in Sources */,
+				B93E43FC10E07B5700662522 /* Invader.mm in Sources */,
+				B93E43FD10E07B5700662522 /* InvaderSet.mm in Sources */,
+				B93E440010E07B5700662522 /* Player.mm in Sources */,
+				B93E440110E07B5700662522 /* Shooter.mm in Sources */,
+				B93E440210E07B5700662522 /* Text.mm in Sources */,
+				B985C8F710E5BCBC00E5E09C /* AccelerometerSimulation.m in Sources */,
+				B985CBB010E64C2300E5E09C /* Game.mm in Sources */,
+				B985CBB110E64C2300E5E09C /* GameCharacterObject.mm in Sources */,
+				B985CBB210E64C2300E5E09C /* GameObject.mm in Sources */,
+				B985CCAF10E6F58100E5E09C /* StateGame.mm in Sources */,
+				B985CCC610E6F94200E5E09C /* StateTitle.mm in Sources */,
+				B9951A8610EB0DC200AE944E /* Score.mm in Sources */,
+				B9951AE810EC372C00AE944E /* StateLose.mm in Sources */,
+				B91F6FDA111124B800EA8DF4 /* Sprite.mm in Sources */,
+				B95E466311170DBD00ABE8B7 /* test.mm in Sources */,
+				B9BC2CB2111A6ED900D63436 /* GameProjectileObject.mm in Sources */,
+				B9BC2E03111AB71400D63436 /* ProjectileEmitter.mm in Sources */,
+				B9BC2E07111AB92900D63436 /* GameMoveableObject.mm in Sources */,
+				B9AF4994112BC27100CB3751 /* Sounds.mm in Sources */,
+				B9AF4BE0112BEA7B00CB3751 /* Music.mm in Sources */,
+				B9226FAA112F80BC002A15D6 /* SpriteCharacterObject.mm in Sources */,
+				B922721E113152F3002A15D6 /* ExplodeParticleSystem.mm in Sources */,
+				B91F08C612867044003DDBE1 /* TitleViewController.m in Sources */,
+				B9DF38D412C1C84300E70FE2 /* md5.cpp in Sources */,
+				B9E0883F1300B6DF0008E4A9 /* GameStats.mm in Sources */,
+				B9B1AFE4130AA38F00208366 /* GameProjectileObjectBomb.mm in Sources */,
+				B9B1B12B130AAFD500208366 /* GameProjectileObjectShot.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B977CF64132634A8008FAFA9 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B977CF67132634BB008FAFA9 /* en */,
+				B977CF82132636E2008FAFA9 /* ja */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "___PROJECTNAMEASIDENTIFIER____Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_THUMB_SUPPORT = YES;
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				GENERATE_MASTER_OBJECT_FILE = NO;
+				HEADER_SEARCH_PATHS = (
+					/usr/include/libxml2/,
+					"$(SDKROOT)/usr/include/c++/4.2.1/armv6-apple-darwin9",
+				);
+				INFOPLIST_FILE = "invaderR/invaderR-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				"OTHER_LDFLAGS[sdk=iphonesimulator*][arch=*]" = "";
+				PRELINK_LIBS = "";
+				PRODUCT_NAME = InvaderR;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				VALID_ARCHS = "armv6 armv7";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "___PROJECTNAMEASIDENTIFIER____Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = RELEASE;
+				GCC_THUMB_SUPPORT = YES;
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				HEADER_SEARCH_PATHS = (
+					/usr/include/libxml2/,
+					"$(SDKROOT)/usr/include/c++/4.2.1/armv6-apple-darwin9",
+				);
+				INFOPLIST_FILE = "invaderR/invaderR-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = InvaderR;
+				SDKROOT = iphoneos;
+				VALID_ARCHS = "armv6 armv7";
+			};
+			name = Release;
+		};
+		B979CC56110ABFE7003742EC /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_ENTITLEMENTS = dist.plist;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					/usr/include/libxml2/,
+					"$(SDKROOT)/usr/include/c++/4.2.1/armv6-apple-darwin9",
+				);
+				INFOPLIST_PREPROCESSOR_DEFINITIONS = (
+					ADHOC,
+					RELEASE,
+				);
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+			};
+			name = Distribution;
+		};
+		B979CC57110ABFE7003742EC /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "___PROJECTNAMEASIDENTIFIER____Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					PRODUCTION,
+					RELEASE,
+				);
+				GCC_THUMB_SUPPORT = YES;
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				INFOPLIST_FILE = "invaderR/invaderR-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = InvaderR;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv6 armv7";
+			};
+			name = Distribution;
+		};
+		B9ED9FA4130E1813001E63B2 /* Production */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					PRODUCTION,
+					RELEASE,
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					/usr/include/libxml2/,
+					"$(SDKROOT)/usr/include/c++/4.2.1/armv6-apple-darwin9",
+				);
+				INFOPLIST_PREPROCESSOR_DEFINITIONS = (
+					PRODUCTION,
+					RELEASE,
+				);
+				SDKROOT = iphoneos;
+			};
+			name = Production;
+		};
+		B9ED9FA5130E1813001E63B2 /* Production */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "___PROJECTNAMEASIDENTIFIER____Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = RELEASE;
+				GCC_THUMB_SUPPORT = YES;
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				HEADER_SEARCH_PATHS = (
+					/usr/include/libxml2/,
+					"$(SDKROOT)/usr/include/c++/4.2.1/armv6-apple-darwin9",
+				);
+				INFOPLIST_FILE = "invaderR/invaderR-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = InvaderR;
+				SDKROOT = iphoneos;
+				VALID_ARCHS = "armv6 armv7";
+			};
+			name = Production;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					/usr/include/libxml2/,
+					"$(SDKROOT)/usr/include/c++/4.2.1/armv6-apple-darwin9",
+				);
+				INFOPLIST_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_PREPROCESSOR_DEFINITIONS = RELEASE;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					/usr/include/libxml2/,
+					"$(SDKROOT)/usr/include/c++/4.2.1/armv6-apple-darwin9",
+				);
+				INFOPLIST_PREPROCESSOR_DEFINITIONS = RELEASE;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "InvaderR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				B9ED9FA5130E1813001E63B2 /* Production */,
+				B979CC57110ABFE7003742EC /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "InvaderR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				B9ED9FA4130E1813001E63B2 /* Production */,
+				B979CC56110ABFE7003742EC /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

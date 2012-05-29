@@ -1,0 +1,35 @@
+/* 
+   Localizable.strings
+   InvaderR
+
+   Created by Richard Adem on 8/03/11.
+   Copyright 2011 vorticity. All rights reserved.
+ */
+
+"WelcomeKey" = "hai!!!";
+
+"title" = "インベーダーR";
+
+//続けてタップすると
+// Tsuzukete tappu suru to,
+"continue" = "つずけて タップ する と...";
+
+// 傾きが撮影するタップに移動する
+// Katamuki ga satsuei suru tappu ni idō suru
+"instructions" = "かたむき　が　さつえい　する　タップ　に　いど　する";
+
+// 一時停止、再開する]をタップします
+// Ichiji teishi, saikai suru] o tappu shimasu.
+"paused" = "ーいちじ　ていし,　さいかい　を　タップ　します";
+
+
+"gameover1" = "しんこう";
+"gameover2" = "しんこう!";
+
+// 高得点
+// Kō tokuten
+"newhighscore" = "ハイスコア!";
+"finalscore" = "スコア:";
+"highscore" = "ハイスコア:";
+"waves" = "レベル:";
+"gameCentre" = "Leaderboard";

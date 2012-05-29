@@ -1,0 +1,22 @@
+/* 
+   Localizable.strings
+   InvaderR
+
+   Created by Richard Adem on 8/03/11.
+   Copyright 2011 vorticity. All rights reserved.
+ */
+
+"WelcomeKey" = "Welcome!!!";
+
+"title" = "InvaderR";
+"continue" = "Tap to continue...";
+"instructions" = "Tilt to move, tap to shoot";
+"paused" = "Paused, tap to resume.";
+"gameover1" = "Invaded";
+"gameover2" = "Invaded!";
+"newhighscore" = "New High Score!";
+"finalscore" = "Final score:";
+"highscore" = "High score:";
+"waves" = "Waves:";
+"gameCentre" = "Leaderboard";
+
