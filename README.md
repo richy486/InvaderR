@@ -17,3 +17,9 @@ Available on the Apple app store: [free](itunes.apple.com/au/app/invaderr/id3661
 * I have removed references to [pebblecube](http://pebblecube.com "pebblecube.com"), game center and twitter.
 * I have also taken out music and images not created by me.
 * There is a class called AccelerometerSimulation by Otto Chrons for testing the game with your macbook's accelerometer on the iOS simulator.
+
+### Screenshots
+
+![screenshot 1](https://github.com/richy486/InvaderR/raw/master/screenshot_00.png)
+
+![screenshot 2](https://github.com/richy486/InvaderR/raw/master/screenshot_01.png)
