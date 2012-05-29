@@ -3,7 +3,7 @@ InvaderR
 
 Simple space invaders for iOS.
 
-Available on the Apple app store: [free](itunes.apple.com/au/app/invaderr/id366183161?mt=8 "itunes")
+Available on the Apple app store: [free](http://itunes.apple.com/au/app/invaderr/id366183161?mt=8 "itunes")
 
 ### Details
 
