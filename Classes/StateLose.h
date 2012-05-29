@@ -32,7 +32,9 @@ private:
 	TextBox* m_highScore;
 	TextBox* m_waves;
 	TextBox* m_continueText;
+#ifdef USE_GAMECENTER
     TextBox* m_gameCentreText;
+#endif
 #ifdef USE_BACKGROUNDS
 	Sprite* m_background;
 #endif

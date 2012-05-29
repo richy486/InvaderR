@@ -97,7 +97,9 @@ void StateTitle::Draw()
 	m_titleText->Draw();
 	m_continueText->Draw();
 	m_instructionsText->Draw();
+#ifdef USE_GAMECENTER
     m_gameCentreText->Draw();
+#endif
 #ifdef USE_TEST_OBJECTS
 	//g_test->Draw();
 	//g_test2->Draw();
@@ -120,7 +122,9 @@ void StateTitle::End()
 	TextController::GetInstance()->DeleteText(m_titleText);
 	TextController::GetInstance()->DeleteText(m_continueText);
 	TextController::GetInstance()->DeleteText(m_instructionsText);
+#ifdef USE_GAMECENTER
     TextController::GetInstance()->DeleteText(m_gameCentreText);
+#endif
 #ifdef USE_TEST_OBJECTS
 
 	if (g_test)

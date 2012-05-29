@@ -30,7 +30,9 @@ private:
 	TextBox* m_titleText;
 	TextBox* m_continueText;
 	TextBox* m_instructionsText;
+#ifdef USE_GAMECENTER
     TextBox* m_gameCentreText;
+#endif
 #ifdef USE_BACKGROUNDS
 	Sprite* m_background;
 #endif

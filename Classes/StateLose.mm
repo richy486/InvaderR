@@ -179,7 +179,9 @@ void StateLose::Draw()
 	if (m_elapsedTime >= s_waitTime)
 	{
 		m_continueText->Draw();
+#ifdef USE_GAMECENTER
         m_gameCentreText->Draw();
+#endif
 	}
 }
 void StateLose::End()
@@ -203,7 +205,9 @@ void StateLose::End()
 	TextController::GetInstance()->DeleteText(m_highScore);
 	TextController::GetInstance()->DeleteText(m_waves);
 	TextController::GetInstance()->DeleteText(m_continueText);
+#ifdef USE_GAMECENTER
     TextController::GetInstance()->DeleteText(m_gameCentreText);
+#endif
 	
 	State::End();
 }

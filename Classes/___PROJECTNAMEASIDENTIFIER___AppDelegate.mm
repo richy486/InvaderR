@@ -72,6 +72,7 @@
     [defaults registerDefaults:appDefs];	
 	
 	//NSUserDefaults *prefs = [NSUserDefaults standardUserDefaults];
+#ifndef DISABLE_STATS
 	BOOL didDisplayStatsMsg = [defaults boolForKey:@"didDisplayStatsMsg"];
 	if (!didDisplayStatsMsg)
 	{
@@ -83,7 +84,7 @@
 		[alert show];	
 		[alert release];
 	}
-	
+#endif
 	
 }
 
